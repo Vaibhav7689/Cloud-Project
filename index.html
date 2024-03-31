@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>UPES UNITED!</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  .scrolling-text-container {
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #000000;
+    box-sizing: border-box;
+    text-align: center;
+    border: 2px solid #000; 
+}
+  .header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  .header h1 {
+    font-family: 'Arial Black', Arial, sans-serif;
+    font-size: 48px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0;
+    padding: 10px;
+  }
+  .menu {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+  }
+  .menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+  }
+  .welcome {
+    text-align: center;
+    padding: 20px;
+  }
+  .images {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .image-button {
+    display: block;
+    margin: 5px auto;
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden;
+    width: 150px;
+    height: 100px;
+  }
+  .image-button img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .register-button {
+    display: block;
+    width: 200px;
+    margin: 20px auto;
+    padding: 10px;
+    text-align: center;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.register-button:hover {
+    background-color: #45a049;
+}
+</style>
+</head>
+<body>
+  <div class="header">
+    <h1>UPES UNITED!</h1>
+  </div>
+  <div class="scrolling-text-container">
+    <div class="scrolling-text">
+        <marquee behavior="scroll" direction="left" scrollamount="8"><b>WELCOME! to UPES UNITED !</b></marquee>
+    </div>
+  <div class="menu">
+    <a href="#">Home</a>
+    <a href="https://www.upes.ac.in/contact">Help</a>
+    <a href="about.htm">About Us</a>
+  </div>
+  <div class="welcome">
+    <p>Welcome to UPES UNITED! This website is dedicated to uniting all the clubs of UPES at a single platform, including sports, adventure, dance, music, literature, social, and more.</p>
+  </div>
+  <div class="images">
+    <div class="image-button">
+      <a href="https://www.upesmtc.com/" target="_blank"><img src="https://media.licdn.com/dms/image/C4E1BAQGngclxuNgIZA/company-background_10000/0/1628232182854/upesmtc_cover?e=2147483647&v=beta&t=8FaZOk7NdsfdEdIvJEIJcALXtxPP0ybtf6aaS9lEXZE" alt="Button 1"></a>
+    </div>
+    <p>Microsoft Technical Community was established in February 2018 with the vision of “Innovating, Inventing and Improvising”<br> to educate fellow computer science enthusiasts about various aspects of the technical world.</p>
+
+    <div class="images">
+      <div class="image-button">
+        <a href="https://www.upesacmw.org/" target="_blank"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAC7CAMAAADokgQhAAABJlBMVEX///8AsPIAq+QAfMT8/PwAk9MAesMAfsUAm9kAkdIArPEAn9wAl9YAmdgAod0Ai84Ahcv29vYApuAAgskAis/4/f4Uhsjm6e4Am98AkNScq8Hc4ejs7OySwt8tkMru8POgzulDcLRIntHT2eIAouWjscXM096UrNGzv8/n+v2AudpmrNayw90xY67M1uejt9d64PnO4u6So7tcgr3q8/opXavDzNl/nMlLdrd0lMYcxPVGrdzY4fC+x9Wn7/zC8PyN2fJagb3Z9Ps0xO9kwue5yN+34PEQuPKa3fMetOaxytm37PtXocxt1fSYzuEXsONqx+pCyOp9yuhJqtKc6fuIocjJ4PCVsdOe7ftg2Pez1+1RpdYlzPZ1stbR9vyhwtZi4fp3wt1c2chJAAAV2klEQVR4nO2cCVfiytPGI7TgMiIBQgNRWwkguKLmj4PCwACyiFzQUefiNvd+/y/xVnUnLBJw13vek2c4I0KY+aV4urq60x1JsmXLli1btmzZsmXLli1btmzZsmXLli1btmzZ+hIR9tJP6KWP4HiVtCR52QdKlePqx6C8XIk4YS8Jvl6Z+fbfoJcZScTlTF5+9idKwP7t2/H1B0I9V4kkA/h8/NmhB/YFgF843vtIrOcJsDWIfJzJz8MvVTwLGPmvjz2hUsaEf16z1SueGQE/Pf3F9DROMnHK4SmY5+kP6JX5mR789Nc6R92XEwAfwb8BHhrv5OP1jmemDz8LsX9hkn03yZQIeDVuwKvJyb7XK76ZQfjZr3OOBtj7MvwNZ6FFAJ6pkYnwqYpnfhh+dvarnAPAFOAjKiFEixvwE3JOqeOZH4H/ktgTFbEBXk1SSc8xjXF4quXH0esd3/wo/JfEngEnwEOoqSydHOQISUQYRfNQ6w8Idgv4L6Bn+xx+nxGiy1vbJxI6R8ATq5QJ7B5r+MVPppdVmcNrFKqCXDYH8HqOajzy0BCSo/SpjsMzDv6T6WlcBXg1oslLRDrZPtna3jnJQrul6CVIQSO25+xj4RcXP5MesDl8AjzDtjg8PMyGADnnkXP0jsM3Ef7T6AnaA+BVmlQlmj05MeHVnJxgAp4O9VapTtv3BPxn0ctg9UgC4GUmSzv/2wX4E4TP7R5QmagAv8/UfbX/AYz7k/CLx58yMmQmPNSU+s7/tgBeXYc2m1vfzqGjMPIA33MOsD8DPhC4/XB6olKMfDzBoG+i2S0BD7l+dzv3ey2Xy7EEtAVosyo1eiu91Ub2PvzCgigpZw16E/7jncPiCTmSoPEMWQLPbO+CbXYO4TsgWxx+N4vO2YeyQdX2eW+VAvY+PIyhpnEUhfhAHYA02YP/eHoWyTCAj+Qhz+gCnlE0iLqurq/l1tdUrJNNeMLjbsAD+cK8r10+bxXrqGKn3PbMBrzegID3ej+Unmgqi2cg8iyvET27K+AJL8nBOQIenJNhAA/mYRnB7sC4z887Gp1is5TSFQUqOaIoSqp0Xe8czy8iP8J/KD2J5xk8IL1DnlG313Pbu7lDzXyT7H5H+Ct0DsKD7fc7DYeAB/JW80EfHXooperF8Tck5/o4ehJPcvgM9KV6bg3h5aV+d6TuUoA/XFOJJOD1Xw7B7nGUiynFOCxVKvwAFR7MV4hSPZ72C/jgsf4h5Joq4OW8KoFn1LV1sA0ZiCXkfYT/js7JQ87ZK7YFu6Nc56CKUrpMt8pHRzXQ0VG51U0XFHyD6NXKrMBf/BB6kszLCJ9Ez+TWrgA+d6UNH0J+f0f4qywD50QqDWGZRpFn8NRD8e6oNjU3oKla7S5dSOG7+s1xkOMHN9/dOdDC4kkDnlAK8LntK5FnBqXtUoDP/qSQZ4RnPI7zB/x2Us2uAJ8akDiBu8sSHqFfTDs5/uZ7x17V5GQSHwmNyNl1bvh1eaT9yYxlwTk/6c51sW2EHQOburyrPQIfOIOpchrxwfput9frD26+c1+bTwp4IssSWztU167o1Y7FtAWRr8A5P9WraIOzl5vgaaV5PhbdxL+EcySlCljH739X54BnevASzVEOP5hnBo8F52R/7lV8nP38AV5KpWsTyA38WrekYB206Pb7/e/pHC1B8nGE18Azh1cAD7YhY6aLIOdkf/L87nOc4/dfuJt6Ap3jTx1d4pd08d70gI3wcRk98zOLkf+dGH84+R0UaQbZlebRc9gRv4bNo0f/Ls6B0jaPU9j4IOCZA4Rn1p4R0i9Eeufsl7XnofPgtzh9EOjd7xN7NUMEuaoRcpjl8FejeWaAvWi01Reym/R6xflu9IkIwLN8HPIMkX8eADzbtcozplKiX/WVC+SF7CZ96dgl6N/oHPCMFsHJ90wc8swOO0B4HP6NlWKwt+svjbugT0Or3Yu6AN7tfyO9mmQCnoJnrg44/OG4PDPA7vB1AaJw9EJ2bLWQc8hfQRfAA/2bnJOIc3g+l8EOflKAn+iZHjsavnT3Ynakb4LtN11u1Bt8T/A6n7hywMAz0PcAPJvsGaN+d0D8lNYzc+Qj+jLYvroi6F8fexpniQjV9mWqyWT9gMNnJ126MePu8JwDwI+XGt6AR9srF24nsDudr6anSabmmQplJOSZ7HeAZ1uZZ3gGWit89aXyq9iB/qgAn466OLw7+Ep6GZzOHxI9YQL+OZ6BwHdSklJ/lWkQfq4LH1/1Ojm887W+J8aDrEONDo/spIs2vbi/MfBGm+WhR/jXO0dIPsQyl249J8/wugAcn34tuhF6gq7n8G+kJztbLHOCZdkE9kaP3QEtLvX6wGPowfXVaZcB7/Tfv4UeK4NJ5Qw4vMfu8DUgx//9ulRjwE+lIdcfu5wC3uVyv4UeJ4l67IquK49OZJAdXAOprvva5iroIdcrF314V3AcfXV1dZW/tQdPriWCP1A3ezgrod+smsKr1US/2djcvF8Wb1qyO4qK9HCEY6feJMEAVv+1xz97b6JvfgDXosttwrvGOec2GFxZRa6NYDC4qSirQaHFlQ0di6SgqVtdUm5uF71+tz+4GF1VLNnBNWDYJrgGJwaOQLX+l9B7afA1fIn/Lt4Ub0GzKflcvciPcw6JOp1BAQ8nCvDLXqfZUAB3bwWfYVftjOrSzQo2InzT3UsBw+y8rOGuObpLF0qpVKn5jzmWgte6TXgpVbqEsqd7CbqDwWshlXpIw1eFcyCpVKGLzeUOfPNrEN469qPwfnghGg0Co3eZIHxwJboCumd7UThk5X7jPhrs5a9H7DxRpu7m5o5603nKw51gr7VK5kvpubm0AuqWC/wlGC3WjBlBPl4/esASwTUAb+l7K3j32WniDwb5Vkf4lT8ZlCqvBuGXU7pEtT/Re2bJ7vDhNw5xvMM3U4KH18ZztXTfaQiPUzU/CibGZbE3mQmnDskSC+NBeCvnWMJvUnlpA0ijAn5P5iLL+BIuNZCXtD1ZROwxu+MSYGsIX2qm7+5aGFkljX4X7KmHQuFBRB4/rzzAb/xfwqd8tkm5BIM1Fak6OwwP9I+7eGt4XRKkAn75BqXzl4K3q9eQK0XeH4k71AZ/S9Ilwl+Wa4iMZRY/myOcw1EK5zjJ2r3jbZIPtmpH4qyUYm3qqEn40TE8tdLKI/hR34+BJ/omfPCMIbybJ5uVG3KDrdcdXLnduNEtPYPJBrIcuHaqVjMSH07HgI8EbKHcS4z89yYedcQDjicYw2Iejo5hhaBHH8O73Bv60/DR1dVNiLJ/QxbZhueeG8Lu/U6RfHgatWAXmfKfKSNTlu/+SWPAYVCF1RakISPrzxknA/ZBj+BbLXxaK3H4UAzSjX47Av+Y3jLb+INBzInRPZ5t/Ctc0IFp90GeKOEjG4oVew8e0mL6b0g4fP4d4blrUr1RrYAXxFOXvJnG5qZiWNVg5BFesYB3BYfoLSPPwxs8y8hSP9skGF55Or2PruCJOVf0x221D49p/py3QyX1kBLwOKrFnteIex9+TsCXAH7OhA/FsLewgofYK0/AByHQZ8saJJSBbEMkhRBG1cQfSPfO4HV1LDxEvswD3Sx277jn74SxRdkg+Pvwc0bkQbWHJ+HvB4pbcut2+pcx525CtO+NPJ/RNJVP6Ql449CbG0WCPLN0ij3XDftrgm0QGTonIOty+JhINuWByOP/2YrF5mJzTQ4fisVCAr4RCo3xPLDTgaqQQFZxR691HVNJcJmYeV4WdSSHv9H3QLqysXIPaVLRsbMK7hFqQe9rNBEeKyupOcUNTTg8b7BScSqGoYYYz5nwIA5fRniHCX9uDR+8VwdHFeQ0iE1zcxN71JU9YuZ5Q0Z5gNpgG37/yu39xuYK5JszKpGlUXqeKi8NeMyD3Os4KOTZJdWd4u6AJilsMw6+BQMai1Q5zC5J9D7oNKqt4LIsWcAbigK8eSR8V9hMRul5D9usTSF8Kn1U45cXEF74BnqlVvk83UwD/EjkQQZ8OFRX4L9+DO/efMQuEXWD5w9opcvgJ3kZOqR+TzZQEp+x0zM4EhRcOTvlPbVV7Itg9prR+T8UUjxXlsqA2OWX/SSoKhWlB4/htoCfr0oECvpH5cEIO89/G5tnZ5vLiSWM5t7y8vJp7yD2Z9nUqSyrpxv3cOTGqWqMCkfpffiFl2M82/BIY9NNITyfAjYC1ocPDcKHHSUBDydB/vI+Ksws2HEueGmJLi0tCSC594y/x5ZMwYt4JKq/Zhjo28Pw0MOnurG5cyx/FeXS0YWOikc+Fis3RZ+lpM5DMV4StzDcsSYuRDgPc3g8uhGAcbCy4RqCt2aXjEEq6f8y8lbv7aEj+Qt0mN7XgFK8OBebapyn092yI9YogxzIDq7ANR/F1nnDEwq1+esIH+KH+PDZTKMMf+bDHUWMwPvwY9knCDKmLBFlwhGE/js0DMQpJ6gLMRvyzILQIW5tTwx/zosXuMJh40fYeCaehmfqRNr7NjCGBXbtxewkx3Z22cnupLmyx7HvKiLvIbZBH2u0Wo5Y9zz0WDO9UwgPKNCGsciqfyDy7rOXswOYLFZy6BNmToZ7KzQ9ZBODW7B3Hqr1c0+9zoFjHgG+ABYvNjDOC4gfDoVnTXpwjVIZmPp4UdwZk2RZwhXZhFxtI/z6+oRJp6HYg28U6aER6lsm1G4WY/O++WIB4h92tNItX7jR6XYb0I/W22H4Vhph33nnfMYM/EydX9tx9yadXsJOtIScyRAtTygjJ1mEz36f6JyhnNNSJJFGTGeXsdsJh4qlVqEVbncqD51AsXRRrXsqpaLP0aysNucdpWr5W0DAe3HODROlMYvxQs8wihe8M3E5mZeZioshst/pyBqPQfqB2IuZG98QfBuYFi7r4WI9NF/ulC4CxXq4UXB4msf+in5RbDp8zUbADHy4KHKNOdH6Qr9DNkzyLThwCpBuDtdyAL++PpH+337s4T/naduEbxdaoYX5mctioFgNdeqNAsJPNwo+TxXgS+VGe/q46UB4vlKuDYE3Rt/ul7MjTD5pwDNKTg5VcXFh0gf69D7sXgu+Hn14oZUqFs9n6kUMeLFaBviLUrFQnF2o1n2+HxeVcvi42Q6I5ZXeMORJ5ZfTuLjwCnbunEQE4FkmSdA5HJ5OzDn92EPolWJogL5cvHCEGo1wuxH2dDrlNnwFnY4vEGhcOALti4tGYKGxgEv8QP7jlJio5PCvYkfnIHyc5SM4UYPwB+xwcs4x6bGXlVIN0fGEhxQIc8JAsRjwimfGT/M3/0yVz2/zGUZn8FXsCKPhZXuWiRDG5K0rlV/KnPRPkSWD3ufDGqzpC1sKvB0IONoBjPTiADdfIOf3XsBojV+RwkuZr2XnzuHwcibJGBUXkUfXlQ3Sm7H3tX/gLJI1vLH6dkjmuko/JB/zWuCb2PkKJw4Pf8PQm0eeHu5O+kSPHgdQqU44MBxzvnwYlw0vjnJzdieuRMd1H3zY8AZ2hME9f3zxAWNk64ryhROTru+Y9D4HH3c3AoJeWIRjW1NjzP1ev8tTxW8syBdOeM8Sb2GHMaIqC/gE5BxqrPrITUiZfXocSz00hJ8X+R8rbkD2+g14v+sb7k+GFA/PwTNvZBc5B1dO4DonIuBZdqJzVFEh+9p1XPhRFs3RbJhe70i8e3K6olVorNe4YAXO6c3sqEQcgk/zuOdS3loXy7QmOUc2Y9/AZYmlSthr4RIe8L54XnTdVmGsVroVC53ehV1iKgSfQp2jJYGf8gVybJJz5K0VR58+dWEuch6NtcmNvZHLj2tByd6xmy+Qe1tb7Qmds4/w4B90Dl/dd7A14QPZ74ZzGny1Yf3Y7xwbbyEoe1cusPe+jrr978iO0jDyDOBBW7tiUei4Y5Uc5NTEL5+gL4qFqtNgBUtsXnrx0cY1X5Ar2N+YI4fFNL7JOyJreciZxorWHWvnbGVxOW42aCw16+Iq4VT1eBHrlOFoi5EGojuj/EqwXvzm5Mtx38fvhsA5kHC0CMtgb0W/A/y6+tPSOYQvhFbXfxutVqwmJnr917QbMTm225iDM+Yfb1dxSwN8QQEnT5zvyo5MfLUZ7nnFnLOVA/htiyINGjJfgq5Sql4I33sarQeOX72IzrpdjxWM3lf5bgz9ryjkGFxA/97s0FtpMsJHqJqHOk0s/mcjzjnJ8vXzB1TWNFoxSkxfuc6nypRU9eI4uhh0i4ibF7fENFT116LfG/wYdnSOgE9gb6V+5zsXvp88Okpsu9jdlXEUGf9lLJfzOPgKc/xXFP365uLfjfv7+3+Xb67NFRhKtdLbNPKebXVA2r4JL7PdE5VveBk6vxwT0ySUElytHk/26nufo9wq9De4oHpTcHqpfvzN6w14P8gzQiwh8032soo5J7eNG170nf7/dZJVReSJphGEz6u9+t4z72ufFwslfWjuDb6IQr3im/Z6jR44eLv3MewSkfEOARq2XAolDN+ts7PWd876Nu6TAs9IQJ6M4yYT1cw5Po9nZmbe0ThPNwulkg4qlfaqxc6xZxbJxQ61D2RH9eC5c4wdavwdhp4B+ByuADThCdAb8LhHbWZhYWHG42s3GuVGo+HwLUwvBowNpWJ73Yeyg3MwYeJW6Qw4R8CrJ5hzdg5wY+M6eEZNoGfycZLQiCRib2xsNHY24p0mwrOz4cVweDY8uLHx9vQj2Y2coxp3CMit7eKW0rUdeEdsKT3ZZWKHBsLzSX6o7x3DW0pxP+yCxX7YxdvrD2VHYdjRPBSKtN0dsR8W8gzCb+dghNuHF8dz5zxjM+8He0aIZpiAhydMFtuodw5wGzUYnqgZkuHwYB7JpMct4E9uo/5gzwgR3OeNdwjQ8K4kYPveBnacxcephoixN8aUrFYcT8J/CjuqD0/Y1k4Pni3JpAc/eLy8V3nq1gGfxi6cowI8Q+cY9z1Az+RxngTKflUbrtkM+vHwt6dP3dbn3cSdo+IdYqC3kiDbAP8O5JnEvgE/sjEDnDMBfhbi/pl3GOJ3CKAU93nTLRXg2RLjo0UOP3o8px93o5JPZpdonvJ781CmoXPWdoialLV9iveJSViRgHPG3SLms9mNOodC/OMq5BzIM1BzCnjLO8SI2FvfnOez2VHavsrQPCqcCWNEw5tkIPy44yH2FrdF+hp2dA7jkYdSmSapgKcThhKc/hH89PHn5ZlBERjOcnhwvspv0gDwkzaA9egHbwX2JXGXcDMJt42G8BGEp/tj7udkCnw/dBO22ehXsSNMEtoswlMOLz85/AT6odvffY1nhMA5BjzaRp3oGSFZ/TVw48GvZEfn0EiCw2tq5AnPCInYi1s+fi07iCWhwcJDY89cDgOtlo9FgH3pi9m5cyDh72vP8IyQvPdr/j8RdwlHhggfV58+0pSs/ZpZ+A/EnQvIifqSu+NC7P8TcUcRKkvPNg2XvHf9H2Hnux9fqMn73WzZsmXLli1btmzZsmXLli1btmzZsmXLlq3/v/o/QsxFW1FyXQUAAAAASUVORK5CYII=" alt="Button 1"></a>
+      </div>
+      <P>UPES ACM Student Chapter has evolved as one of the most sought after student organizations in India.<br> With 500+ members, technical specialists, and a pool of innovative ideas being realized, we grow together by inculcating values necessary<br> for a complete professional in the corporate world.
+      </P>
+
+      <div class="images">
+        <div class="image-button">
+          <a href="https://www.instagram.com/" target="_blank"><img src="https://whitecode.biz/staging/western-college-new/uploads/copy-1703662499-taal3.jpg" alt="Button 3"></a>
+        </div>
+        <p>Taal Tarang – UPES Dance Club<br>"Taal Tarang: Join UPES's vibrant dance club to immerse yourself in the beats, moves, and cultural fusion of dance forms from around the world."</p>
+
+          <div class="images">
+            <div class="image-button">
+              <a href="https://www.instagram.com/prayudh_upesdebateclub?igsh=MXJteWRkeThvejNuMA==" target="_blank"><img src="D:\OneDrive\Pictures\Screenshots\Screenshot 2024-03-25 173816.png" alt="Button 3"></a>
+            </div>
+            <p>Prayudh – UPES Debate Club<br>"Prayudh: Shaping minds, shaping discourse. <br>Engage in thought-provoking discussions, hone your oratory skills, and embrace the power of persuasive argumentation with UPES's premier debate club."</p>
+
+            <div class="images">
+              <div class="image-button">
+                <a href="https://www.instagram.com/avishkarnam?igsh=MXF2amd4eGs0aGh2YQ==" target="_blank"><img src="https://media.licdn.com/dms/image/D4E0BAQG1Ld9YYFljkA/company-logo_200_200/0/1689066197423?e=2147483647&v=beta&t=4remVk9xjHX1QMT90KsGfRIGgWVCDSmORk_JL-Re0OI" alt="Button 3"></a>
+              </div>
+              <p>Avishkarnam - UPES Literary Club<br>"Avishkarnam: Unleashing the power of words.<br> Explore the realms of literature, ignite creativity, and share your passion for storytelling and expression with UPES's dynamic literary club."</p>
+
+              <div class="images">
+                <div class="image-button">
+                  <a href="https://www.instagram.com/jigyasa_upesquizzingclub?igsh=eG16cDh0eWh6c3ly" target="_blank"><img src="https://media.licdn.com/dms/image/D560BAQEHshPSokH1OA/company-logo_200_200/0/1707289085457/jigyasa_the_quizzing_club_of_upes_logo?e=2147483647&v=beta&t=HGGBgjtz8z1iur0qB3jjQFHUMw68czP5Z7NjuiSRZ_g" alt="Button 3"></a>
+                </div>
+                <p>Jigyasa - UPES Quizzing Club<br>"Jigyasa: Where curiosity meets competition. <br>Embark on a journey of knowledge discovery, test your wits, and quench your thirst for trivia with UPES's electrifying quizzing club."</p>
+
+                <div class="images">
+                  <div class="image-button">
+                    <a href="https://www.instagram.com/upes.adventure.club?igsh=MWc2MDl0NGJvazQ5MA==" target="_blank"><img src="https://pro2-bar-s3-cdn-cf6.myportfolio.com/ea42928c-f975-4c2c-bd18-b3833f426901/083d5faf-783a-4094-b846-063433b1986f_rw_1920.png?h=65c5910d9ea17ec149a9fd06c116cdc9" alt="Button 3"></a>
+                  </div>
+                  <p>Aarohan - The Adventure Club<br>"Aarohan: Ascend to new heights. <br>Embrace exhilarating challenges, forge bonds through adventure,<br> and discover the thrill of the great outdoors with UPES's adventurous spirit in the Aarohan Club."  </p>
+
+                  <div class="images">
+                    <div class="image-button">
+                      <a href="https://www.facebook.com/mantraupesmovieclub/" target="_blank"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQBMRAm9-hZDewyHLgMoktsbsKIRsZF4P2brmYIaT19A&s" alt="Button 3"></a>
+                    </div>
+                    <p>Mantra – The Movie Club<br> "Mantra: Channeling cinematic magic.<br> Immerse yourself in the world of storytelling,<br> explore diverse narratives, and celebrate the art of filmmaking with UPES's captivating Movie Club, Mantra." </p>
+
+                    <div class="images">
+                      <div class="image-button">
+                        <a href="" target="_blank"><img src="https://m.media-amazon.com/images/S/stores-image-uploads-eu-prod/9/AmazonStores/A21TJRUUN4KGV/688d98d2c4631a7041e548336711f793.w3658.h3658.jpg" alt="Button 3"></a>
+                      </div>
+                      <p>Pratibimb – The Photography Club<br>"Pratibimb: Reflecting through the lens. <br>Capture moments, express perspectives, and unlock the beauty of the world around you with UPES's vibrant Photography Club, Pratibimb."  </p>
+
+                      <div class="images">
+                        <div class="image-button">
+                          <a href="https://www.instagram.com/saptakmusicclub?igsh=bzJsd3R5NHB0bHhq" target="_blank"><img src="https://s3-ap-southeast-1.amazonaws.com/tv-prod/member/photo/781984-large.jpg" alt="Button 3"></a>
+                        </div>
+                        <p>Saptak – The Music Club <br>"Saptak: Harmonizing melodies, igniting passion.<br> Dive into the world of music, explore diverse rhythms, and create soulful tunes with UPES's Music Club, Saptak."</p>
+                        
+                        <div class="images">
+                          <div class="image-button">
+                            <a href="https://www.instagram.com/aks_thedramaticsclub?igsh=dmh0aWpkMGI2eWxj" target="_blank"><img src="D:\OneDrive\Pictures\Screenshots\WhatsApp Image 2024-03-25 at 18.20.16_f6399854.jpg" alt="Button 3"></a>
+                          </div>
+                          <p>Aks – The Dramatics Club <br>"Aks: Bringing stories to life, one act at a time. <br>Step into the spotlight, explore the realm of emotions, and unleash your theatrical prowess with UPES's captivating Dramatics Club, Aks." </p>
+
+                          <div class="images">
+                            <div class="image-button">
+                              <a href="https://www.linkedin.com/company/manoshakti-upes" target="_blank"><img src="https://media.licdn.com/dms/image/D560BAQEyZ_q1AIpLNA/company-logo_200_200/0/1705661888884?e=2147483647&v=beta&t=BiCcgs1is2O_a7zZTkwZ8gpRuteaC23W80ggFLMLuhI" alt="Button 3"></a>
+                            </div>
+                            <p>ManoShakti – The Emotional Wellbeing Club<br>"ManoShakti: Nurturing minds, fostering resilience.<br> Embrace self-care, cultivate emotional intelligence, and build a supportive community for mental wellness with UPES's compassionate Emotional Wellbeing Club, ManoShakti."  </p>
+
+                            <div class="images">
+                              <div class="image-button">
+                                <a href="https://www.instagram.com/dc_upes?igsh=eGUwbnd0cTN1NnRi" target="_blank"><img src="D:\OneDrive\Pictures\Screenshots\WhatsApp Image 2024-03-25 at 18.27.16_e0ddb79f.jpg" alt="Button 3"></a>
+                              </div>
+                              <p>Student Discipline Committee<br>"Student Discipline Committee: Upholding integrity, fostering responsibility.<br> Ensuring a conducive learning environment, promoting ethical conduct, and empowering students to thrive through accountability at UPES."</p>
+
+                              <div class="images">
+                                <div class="image-button">
+                                  <a href="https://www.instagram.com/nss_upes?igsh=MWl5YzYzNzN2NXRpeg==" target="_blank"><img src="https://www.careerguide.com/career/wp-content/uploads/2023/07/NSS.jpg" alt="Button 3"></a>
+                                </div>
+                                <p>NSS-UPES <br>"NSS UPES: Uniting for social change.<br> Engage in community service, empower marginalized groups, and contribute to the greater good with UPES's National Service Scheme."</p>
+
+                              <style>
+                                .footer {
+                                  position: fixed;
+                                  left: 0;
+                                  bottom: 0;
+                                  width: 100%;
+                                  background-color: rgb(66, 115, 251);
+                                  color: white;
+                                  text-align: center;
+                                }
+                                </style>
+                                
+
+                                <div>
+                                  <a href="register.htm" class="register-button">REGISTER HERE</a>
+                                </div>
+
+    
+  </div>
+</body>
+</html>
