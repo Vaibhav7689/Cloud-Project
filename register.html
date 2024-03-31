@@ -1,0 +1,114 @@
+
+<html>
+<head>
+  
+    <title>CLUB'S REGISTRATION FORM</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d3faff;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        .clubs-form {
+            width: 400px;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .clubs-form h2 {
+            color: #333;
+        }
+
+        .clubs-form label {
+            display: block;
+            text-align: left;
+            margin-top: 10px;
+        }
+
+        .clubs-form input,
+        .clubs-form select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        .clubs-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        .clubs-form button:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+<div class="clubs-form">
+    <h2>UPES UNITED!<br> REGISTRATION FORM</h2>
+    <form action="your_server_side_script.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="sapid">SAP I'd:</label>
+        <input type="number" id="password" name="sapid" required>
+
+        <label for="Year">Year of Study:</label>
+        <select id="selectClub" name="selectClub" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            </select>
+
+        <label for="course">Course and Specialization:</label>
+        <input type="text" id="course" name="course" required>
+
+        <label for="batch">Batch:</label>
+        <input type="text" id="batch" name="batch" required>
+
+        <label for="selectClub">Select Club's:</label>
+        <select id="selectClub" name="selectClub" required>
+            <option value="mtc">MTC (Microsoft Technical Community)</option>
+            <option value="acm">ACM (UPES ACM Student Chapter)</option>
+            <option value="Aarohan">Aarohan – UPES Adventure Club</option>
+            <option value="Saptak">Saptak – UPES Music Club</option>
+            <option value="Aks">Aks – UPES Dramatics Club</option>
+            <option value="dance">Taal Tarang – UPES Dance Club</option>
+            <option value="wellbeing">ManoShakti – The Emotional Wellbeing Club of UPES</option>
+            <option value="debate">Prayudh – UPES Debate Club</option>
+            <option value="literary">Avishkarnam – UPES Literary Club</option>
+            <option value="NSS">NSS UPES</option>
+            <option value="quizzing">Jigyasa – UPES Quizzing Club</option>
+            <option value="DC">Student Discipline Committee</option>
+            <option value="Photography">Pratibimb – The Photography Club</option>
+            <option value="Movie">Mantra – The Movie Club</option>
+  
+        </select>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender" required>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select>
+
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+</body>
+</html>
